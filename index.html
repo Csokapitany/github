@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG combat simulator</title>
+    <meta
+      name="keywords"
+      content="rpg, dice, simulator, combat, d100, d10, d6, play"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome on the RPG dice roll simulator</h1>
+      <hr />
+      <menu>Player upload, Game master expansion</menu>
+      <hr />
+      <h3>The main page is for dice roll with any kinde o dice</h3>
+      <p>
+        there will be an extra page
+        <a href="http://master.html">for game masters</a>
+      </p>
+      <div>
+        <h2>The main simulator will be for dice roll rolling</h2>
+        <a
+          href="http://g.co/kgs/HjGYaB"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Itt <span id="t">tudsz</span>  dobni egyszerueket</a
+        >
+
+        <br />
+        <a
+          href="https://dreonar.hu/pages/kockadobo/kockadobo.php#"
+          target="_blank"
+          >magus kockadobo</a
+        >
+        <hr />
+        <br />
+      </div>
+    </header>
+    <section>
+      <h3>Here u can upload your attributes</h3>
+      <!--
+        <table>
+        <tr>
+          Fegyver,T/kor, KE, TE, VE, CE, Sebzes,
+        </tr>
+        <td><input type="text" name="fegyver nelkul" id="" /></td>
+        <td>
+          Fegyer nelkul<input
+            type="number"
+            name="Alap KE"
+            id="Ke0"
+            max="200"
+            maxlength="3"
+          />KE
+        </td>
+        <p>
+          <td><input type="number" name="KE" id="Kezdo" /></td>
+        </p>
+
+        Name, KE, TE, CE, VE, Sebzes, Tam/kor
+      </table>
+    --></section>
+    <hr />
+    <br />
+
+    <form action="https://formspree.io/f/xnqrgqer" method="post">
+      <label for="">Char name</label>
+      <input type="text" name="Character name" id="charName" />
+
+      <p>Alap ertek 1-999 ig adhatsz meg szamokat</p>
+      <label for="">KezdoAlap</label>
+      <input
+        type="number"
+        name="KezdoAlap"
+        id="KezdoAlap"
+        min="1"
+        max="999"
+        size="3"
+      />
+
+      <label for="">TamadoAlap</label>
+      <input
+        type="number"
+        name="TamadoAlap"
+        id="TamadoAlap"
+        min="1"
+        max="999"
+        size="3"
+      />
+
+      <label for="">VedoAlap</label>
+      <input
+        type="number"
+        name="VedoAlap"
+        id="VedoAlap"
+        min="1"
+        max="999"
+        size="3"
+      />
+
+      <label for="">CelzoAlap</label>
+      <input
+        type="number"
+        name="CelzoAlap"
+        id="CelzoAlap"
+        min="1"
+        max="999"
+        size="3"
+      />
+      <br />
+      <hr />
+      <br />
+      <p>Fegyverek ertekei</p>
+      <label for="">Fegyver1Neve</label>
+      <input type="text" name="Fegyver1Neve" id="Fegyver1Neve" />
+
+      <label for="">Sebzes1</label>
+      <input type="text" name="Sebzes1" id="sebzes1" size="6" />
+
+      <label for="">SebzesMod</label>
+      <input type="number" name="SebzesMod" id="SebzesMod" min="1" max="20" size="2"/>
+      <br>
+<p>Add meg a fegyvered ertekeit 1-999</p>
+      <label for="">Kezdo1</label>
+      <input
+        type="number"
+        name="Kezdo1"
+        id="Kezdo1"
+        min="1"
+        max="999"
+        size="3"
+      />
+
+      <label for="">Tamado1</label>
+      <input
+        type="number"
+        name="Tamado1E"
+        id="Tamado1"
+        min="1"
+        max="999"
+        size="3"
+      />
+
+      <label for="">Vedo1</label>
+      <input type="number" name="Vedo1" id="Vedo1" min="1" max="999" size="3" />
+
+      <label for="">Celzo1</label>
+      <input
+        type="number"
+        name="Celzo1"
+        id="Celzo1"
+        min="1"
+        max="999"
+        size="3"
+      />
+
+      <label for="">Tamadas/kor1</label>
+      <input
+        type="number"
+        name="Tam/kor"
+        id="Tamadas/kor1"
+        min="1"
+        max="22"
+        size="2"
+      />
+
+     
+
+      <button type="submit">Feltotes</button>
+    </form>
+
+    <hr />
+    <!--/*https://formspree.io/f/xnqrgqer/-->
+
+    <aside></aside>
+  </body>
+</html>
