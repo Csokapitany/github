@@ -38,38 +38,26 @@
           target="_blank"
           >magus kockadobo</a
         >
+        <p><button type="submit" onclick="K6 (roll)">K6</button>
+         
+         <button type="submit" onclick="D6(valtozo)">D6</button>
+        
+        <p><button type="submit" onclick="roll(K10)">K10 dobas</button>
+          <output> roll random </output> result</p>
+        <p><button type="submit" onclick="roll(K100)">K100 dobas</button>
+          <output> roll random </output> result
+        </p>
         <hr />
         <br />
       </div>
     </header>
     <section>
       <h3>Here u can upload your attributes</h3>
-      <!--
-        <table>
-        <tr>
-          Fegyver,T/kor, KE, TE, VE, CE, Sebzes,
-        </tr>
-        <td><input type="text" name="fegyver nelkul" id="" /></td>
-        <td>
-          Fegyer nelkul<input
-            type="number"
-            name="Alap KE"
-            id="Ke0"
-            max="200"
-            maxlength="3"
-          />KE
-        </td>
-        <p>
-          <td><input type="number" name="KE" id="Kezdo" /></td>
-        </p>
-
-        Name, KE, TE, CE, VE, Sebzes, Tam/kor
-      </table>
-    --></section>
+    
     <hr />
     <br />
-
-    <form action="https://formspree.io/f/xnqrgqer" method="post">
+    <!-- "https://formspree.io/f/xnqrgqer" -->
+    <form action="app.js" method="post"> 
       <label for="">Char name</label>
       <input type="text" name="Character name" id="charName" />
 
@@ -112,8 +100,9 @@
         min="1"
         max="999"
         size="3"
-      />
-      <br />
+            />
+      <button type="submit" onclick="character(CHRup)">Character upload</button>
+            <br />
       <hr />
       <br />
       <p>Fegyverek ertekei</p>
@@ -172,12 +161,17 @@
 
      
 
-      <button type="submit">Feltotes</button>
+      <button type="submit" onclick="na(valtozo)">Feltotes</button>
+      <button type="submit" onclick="osszeadas (5,10)">Feltotes</button>
+      <button type="submit" onclick="szin ()">szin</button>
     </form>
-
+<br>
     <hr />
-    <!--/*https://formspree.io/f/xnqrgqer/-->
+  
+<br>
+<footer>Made by George Kolozsi</footer>
 
-    <aside></aside>
+<script src="app.js"></script> 
+
   </body>
 </html>
