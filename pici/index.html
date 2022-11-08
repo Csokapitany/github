@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice thrower</title>
+</head>
+<body>
+    <h1>Dice Thrower</h1>
+    <!-- <div class="scoreline">
+        <p>Score:</p>
+        <span id="score">0</span>
+    </div> -->
+
+    <div class="wrapper">
+        <div class="item">
+            <span id="score4" class="score">0</span>
+            <button class="btn" onclick="throwdice(4)">
+                <span id="button4">
+                    4 
+                </span>
+                faces
+            </button>     
+        </div>
+        <div class="item">
+            <span id="score6" class="score">0</span>
+            <button class="btn" onclick="throwdice(6)">
+                <span id="button6">
+                    6 
+                </span>
+                faces
+            </button>
+        </div>
+        <div class="item">
+            <span id="score8" class="score">0</span>
+            <button class="btn" onclick="throwdice(8)">
+                <span id="button8">
+                    8 
+                </span>
+                faces
+            </button>
+        </div>
+        <div class="item">
+            <button class="btn" onclick="throwdice(10)">
+                <span id="button10">
+                    10 
+                </span>
+                faces
+            </button>
+            <span id="score10" class="score">0</span>
+        </div>
+        <div class="item">
+            <button class="btn" onclick="throwdice(12)">
+                <span id="button12">
+                    12 
+                </span>
+                faces
+            </button>
+            <span id="score12" class="score">0</span>
+        </div>
+        <div class="item">
+            <button class="btn" onclick="throwdice(20)">
+                <span id="button20">
+                    20 
+                </span>
+                faces    
+            </button>
+            <span id="score20"  class="score">0</span>
+        </div>        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
